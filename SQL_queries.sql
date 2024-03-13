@@ -59,7 +59,7 @@ SET time_of_day = (
 SELECT
 	date,
 	DAYNAME(date)
-FROM sales;
+FROM sales;							
 
 ALTER TABLE sales ADD COLUMN day_name VARCHAR(10);
 
